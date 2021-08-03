@@ -23,7 +23,7 @@ window.onload = () => {
     });
 
 
-    // Is this a good place to add these? Or would you have a file that handled listeners etc?
+    // Is this a good place to add these? Or would you have a file that handled listeners etc? I tried to think of this a bit like lifting state in react
     document.body.addEventListener('beerSubmitted', event => {
         const savedBeer = beersDao.saveBeer(event.detail.beer);
         addNewBeerToTable(savedBeer);
