@@ -1,7 +1,7 @@
 import Beer from './domain/beer';
 import BeersDao  from './dao/beersDao';
 import addNewBeerToTable from './table/addNewBeerToTable';
-import updateRow from './table/updateRow';
+import updateTableRow from './table/updateTableRow';
 import createBeerTable from './table/tableLayout'
 import createBeerForm from './form/formLayout';
 
@@ -32,7 +32,7 @@ window.onload = () => {
     document.body.addEventListener('beerRated', event => {
         console.log(event)
         const updatedBeer = beersDao.updateBeerRatingById(event.detail.beerId, event.detail.rating)
-        updateRow(updatedBeer);
+        updateTableRow(updatedBeer);
     });
 
 }
