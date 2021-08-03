@@ -1,0 +1,26 @@
+{
+  "name": "beer-app-v1",
+  "version": "1.0.0",
+  "description": "Pretend untappd app",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eelessam/javascript-course.git"
+  },
+  "author": "sam.eeles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eelessam/javascript-course/issues"
+  },
+  "homepage": "https://github.com/eelessam/javascript-course#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.9",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^9.0.1",
+    "webpack": "^5.48.0"
+  }
+}
