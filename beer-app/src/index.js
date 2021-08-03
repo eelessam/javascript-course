@@ -3,7 +3,7 @@ import BeersDao  from './dao/beersDao';
 import addNewBeerToTable from './table/addNewBeerToTable';
 import updateRow from './table/updateRow';
 import createBeerTable from './table/tableLayout'
-import createBeerForm from './form/beerForm';
+import createBeerForm from './form/formLayout';
 
 window.onload = () => {
 
