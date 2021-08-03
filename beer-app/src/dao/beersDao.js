@@ -15,8 +15,6 @@ export default class {
     }
 
     updateBeerRatingById(beerId, rating) {
-        console.log(beerId)
-        console.log(rating)
         const beerToUpdate = this.beerList.get(beerId);
         beerToUpdate.rating = rating;
         this.beerList.set(beerId, beerToUpdate)

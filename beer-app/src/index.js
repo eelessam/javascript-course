@@ -30,7 +30,6 @@ window.onload = () => {
     });
 
     document.body.addEventListener('beerRated', event => {
-        console.log(event)
         const updatedBeer = beersDao.updateBeerRatingById(event.detail.beerId, event.detail.rating)
         updateTableRow(updatedBeer);
     });
