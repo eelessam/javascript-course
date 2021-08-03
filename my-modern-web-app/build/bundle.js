@@ -1,0 +1,1 @@
+(()=>{"use strict";window.onload=()=>{const e=new class{constructor(e,t){this.name=e,this.age=t}}("Stuart",43),{name:t}=e;document.body.appendChild((e=>{const t=document.createElement("h1");return t.innerText=`Hello ${e}`,t})(t))}})();
