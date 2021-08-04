@@ -16,8 +16,8 @@ export default class {
 
     updateBeerRatingById(beerId, rating) {
         const beerToUpdate = this.beerList.get(beerId);
-        beerToUpdate.rating = rating;
-        this.beerList.set(beerId, beerToUpdate)
+        beerToUpdate.rate(rating);
+        this.beerList.set(beerId, beerToUpdate);
         return beerToUpdate;
     }
 
